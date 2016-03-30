@@ -26,3 +26,5 @@ JsonVisualizerForVisualStudio/JsonVisualizerForVisualStudio.csproj.vspscc
 JsonVisualizerForVisualStudio.2008/obj/Release/JsonVisualizerForVisualStudio.2008.csproj.FileListAbsolute.txt
 JsonVisualizerForVisualStudio/obj/Release/JsonVisualizerForVisualStudio.csproj.FileListAbsolute.txt
 JsonVisualizerForVisualStudio/obj/Debug/JsonVisualizerForVisualStudio.csproj.FileListAbsolute.txt
+JsonVisualizerForVisualStudio/bin/Debug/JsonVisualizerForVisualStudio.2015.dll
+*.vspscc

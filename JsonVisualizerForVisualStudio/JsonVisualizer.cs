@@ -20,5 +20,11 @@ namespace JsonVisualizerForVisualStudio
             JsonVisualizerForm form = new JsonVisualizerForm { Json = json };
             windowService.ShowDialog(form);
         }
+
+        public static void TestShowVisualizer(object value)
+        {
+            VisualizerDevelopmentHost visualizerHost = new VisualizerDevelopmentHost(value, typeof(JsonVisualizer));
+            visualizerHost.ShowVisualizer();
+        }
     }
 }
