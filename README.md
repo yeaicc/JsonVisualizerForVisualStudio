@@ -14,9 +14,9 @@
 <br>
 ### 安装方法
 <br>
-将生成的dll，对应Visual Studio的版本，
+从Bin下载或使用源码自己生成dll，对应Visual Studio的版本，
 <br>
-拷贝到对应目录下，然后重启Visual Studio即可：
+将dll拷贝到相应目录下，然后重启Visual Studio即可：
 <br>
 ###### Visual Studio 2008
 \Program Files (x86)\Microsoft Visual Studio 9.0\Common7\Packages\Debugger\Visualizers
