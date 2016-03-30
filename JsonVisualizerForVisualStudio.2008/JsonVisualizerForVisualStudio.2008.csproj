@@ -59,7 +59,9 @@
       <Link>JsonVisualizerForm.designer.cs</Link>
       <DependentUpon>JsonVisualizerForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\JsonVisualizerForVisualStudio\Properties\AssemblyInfo.cs">
+      <Link>Properties\AssemblyInfo.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="..\JsonVisualizerForVisualStudio\JsonVisualizerForm.resx">
