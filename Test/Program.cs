@@ -11,7 +11,7 @@ namespace Test
         [STAThread]
         static void Main(string[] args)
         {
-            string text = "{\"id\":123}";
+            string text = "{\n\"id\":123,\n}";
             JsonVisualizer.TestShowVisualizer(text);
             Console.ReadLine();
         }

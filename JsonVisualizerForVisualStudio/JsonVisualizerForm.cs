@@ -68,5 +68,16 @@ namespace JsonVisualizerForVisualStudio
             // 导航到临时文件，来处理和显示Json
             jsonWebBrowser.Navigate(tempPath);
         }
+
+        public void ChangeShowType()
+        {
+            this.Controls.Clear();
+            RichTextBox txt = new RichTextBox();
+            txt.Text = Json;
+            txt.ReadOnly = true;
+            txt.BorderStyle = BorderStyle.None;
+            txt.Dock = DockStyle.Fill;
+            this.Controls.Add(txt);
+        }
     }
 }
